@@ -28,9 +28,12 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-project"
+    }
+  },
+  "defaultProject": "angular-project",
+  "cli": {
+    "analytics": "85c07b59-f02a-46bb-8235-61231ff76d0c"
+  }
 }
